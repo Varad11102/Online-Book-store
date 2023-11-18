@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+
+.navbar {
+    background: linear-gradient(45deg, #ff7b00, #d4e300);
+    box-shadow: 0 0 10px 0 #613737;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: color 0.3s ease; 
+}
+.nav-link:hover {
+    color: #d4e300; 
+}
+
+.form-control {
+    border-radius: 30px;
+    margin-right: 15px;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.searchicon {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.searchicon:hover {
+    background-color: #d4e300; /* Change hover color */
+}
+
+</style>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <form action="#">
+                <h2>Login</h2>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="forget">
+                    <label for="remember">
+                        <input type="checkbox" id="remember">Remember me
+                        <a href="#">Forget Password</a>
+                    </label>
+                </div>
+                <button type="submit">Log in</button>
+                <div class="register">
+                    <p>Don't have an account? <a href="#">Register Now</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-JnKFF8MLaxMU72JOVJd0n3p4Oy8fNkCWNIzjS6ck/yUzeFqFZjwJ8ERdknLPMOOf" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+ 

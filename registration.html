@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Login Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .navbar {
+            position: relative;
+            background-color: brown;
+            background-size: cover;
+            backdrop-filter: blur(5px); /* Adjusted the blur effect */
+        }
+        
+        .navbar-collapse {
+            backdrop-filter: blur(5px); /* Apply the same blur effect to the navbar content */
+        }
+        
+        .navbar-brand {
+            backdrop-filter: blur(5px); /* Apply the same blur effect to the navbar content */
+        }
+        
+        /* Additional styling to improve visibility of navbar content */
+        .navbar-nav .nav-link {
+            color: white;
+        }
+        
+        /* Example: Styling the active link */
+        .navbar-nav .nav-link.active {
+            font-weight: bold;
+        }
+        
+        /* Search bar and icon styles */
+        .search-container {
+            display: flex;
+            align-items: center;
+            margin-top: 5px; /* Adjusted margin for better positioning */
+        }
+        
+        .form-control {
+            margin-right: 5px; /* Adjusted margin for better spacing */
+        }
+        
+        .searchicon {
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: white;
+        }
+        
+        .searchicon:focus {
+            outline: none;
+        }
+        h2{
+            color:white;
+        }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar  nav-underline navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="2.jpg" alt="Logo" width="50" height="50" class="d-inline-block">
+                    <h2>Online Book Store</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mt-5">
+                        <li class="nav-item">
+                            <a class="nav-link " href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">User Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Payment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Order Confirmation</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="searchicon" style="font-size:24px;color:red;"> <i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
